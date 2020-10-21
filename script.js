@@ -59,8 +59,8 @@ function resetBoard() {
 //Shuffle
 (function shuffle() {
     cards.forEach((card) => {
-        let ramdomPosition = Math.floor(Math.random() * 12);
-        card.style.order = ramdomPosition;
+        let randomPosition = Math.floor(Math.random() * 12);
+        card.style.order = randomPosition;
     })
 })();
 
